@@ -1,0 +1,15 @@
+{
+  "name": "my_documentation",
+  "description": "A basic necessity for most http servers is to be able to serve static files. Thankfully, it is not that hard to do in Node.js. In my project I used the path requested and it serves that path, relative to the local directory. This works fine as a quick solution. However, when loading the address http: // localhost: 3000 through the local Node.js server that I installed, the files that should be loaded through it are not loaded.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start_nodemon": "nodemon app.js"
+  },
+  "author": "Nazym",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
